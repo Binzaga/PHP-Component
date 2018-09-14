@@ -1,0 +1,21 @@
+{
+    "name": "lijian/php-component",
+    "authors": [
+        {
+            "name": "lijian",
+            "email": "lijian@ijunhai.com"
+        }
+    ],
+    "description": "第一个php组件",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lijian\\PHP\\": "src/"
+        }
+    }
+}
