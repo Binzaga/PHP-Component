@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: lijian
- * Date: 2018/9/14
- * Time: 11:59
- */
 namespace Lijian\PHP;
 
-class info
+class component
 {
     public static function info()
     {
-        echo 'hello world';
+        return  'hello world';
     }
 }
